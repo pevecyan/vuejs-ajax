@@ -1148,6 +1148,8 @@ const VueAjax = {
             this.config.error = error;
             return this;
         };
+
+        Vue.prototype.$ajax = Vue.ajax;
     }
 };
 
